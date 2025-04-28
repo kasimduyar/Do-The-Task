@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "a681049a-076d-4331-b585-3e51ca0139bc",
+		"name": "MissionComplete",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "41993553"
+	},
+	"item": [
+		{
+			"name": "MissionSave",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8090/mission/save"
+			},
+			"response": []
+		},
+		{
+			"name": "MissionList",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "MissionUpdate",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"mid\" : 1,\r\n    \"title\" : \"Araba Yıka\",\r\n    \"description\" : \"Arabayı yarın yıkamam gerek ! \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8090/mission/update"
+			},
+			"response": []
+		},
+		{
+			"name": "MissionDelete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8090/mission/delete/4"
+			},
+			"response": []
+		},
+		{
+			"name": "Customer Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ali Mert\",\r\n    \"email\": \"ali@mail.com\",\r\n    \"password\": \"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8090/customer/register"
+			},
+			"response": []
+		},
+		{
+			"name": "Customer Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8090/customer/login"
+			},
+			"response": []
+		}
+	]
+}
