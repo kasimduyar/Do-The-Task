@@ -5,7 +5,7 @@
 (it is a task creation system where users can add, list and delete their own tasks. Users who are not logged in cannot access the system; each user can only manage their own tasks.)
 
 
-## 🚀 Özellikler (Features)
+## ✨ Özellikler (Features)
 
 - 🔐 Kullanıcı Kayıt ve Giriş Sistemi (Session tabanlı)
 - User Registration and Login System (Session based)
