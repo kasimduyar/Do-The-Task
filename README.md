@@ -5,14 +5,18 @@
 (it is a task creation system where users can add, list and delete their own tasks. Users who are not logged in cannot access the system; each user can only manage their own tasks.)
 
 
-## 🚀 Özellikler
+## 🚀 Özellikler (Features)
 
 - 🔐 Kullanıcı Kayıt ve Giriş Sistemi (Session tabanlı)
+- User Registration and Login System (Session based)
 - ✅ Görev Ekleme, Silme
+- Adding, Deleting Tasks
 - 📄 Sayfalama (pagination) desteği
+- Pagination support
 - 🧑‍💻 Sadece giriş yapan kullanıcıya özel veriler
+- Data specific only to the logged-in user
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Kullanılan Teknolojiler (Technologies Used)
 - **Spring Boot**
 - **Spring Data JPA (H2 veritabanı ile)**
 - **Security (Session Tabanlı)**
